@@ -1,6 +1,6 @@
 Typical use cases:
 
-1.Ensure Bandwidth
+1.Ensure Bandwidth for Each New VM
 
 1.1 Use case description:
 
@@ -28,4 +28,10 @@ enough bandwidth for the user.
     new filter possibly named BandwidthFilter that provide the ability to
     filter hosts based bandwidth requested by the instance.
     The patch https://review.openstack.org/#/c/44007/ added network monitor for compute, which collect network related metrics like the rates of packets sent or received for the compute node. But network bandwidth collection, including physical bandwidth and instance bandwidth used was not taken into account.
+
+2. Ensure Specialized Bandwidth between VMs
+
+2.1 Use case description:
+
+2.2 Gap:
 
