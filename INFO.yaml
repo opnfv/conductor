@@ -1,0 +1,64 @@
+---
+project: 'Resource Scheduler'
+project_creation_date: ''
+project_category: 'Requirements'
+lifecycle_state: ''
+project_lead: &opnfv_conductor_ptl
+    name: 'Rex Lee'
+    email: 'limingjiang@huawei.com'
+    id: 'rexlee8776'
+    company: 'huawei.com'
+    timezone: 'Unknown'
+primary_contact: *opnfv_conductor_ptl
+issue_tracking:
+    type: 'jira'
+    url: 'https://jira.opnfv.org/projects/conductor'
+    key: 'conductor'
+mailing_list:
+    type: 'mailman2'
+    url: 'opnfv-tech-discuss@lists.opnfv.org'
+    tag: '[conductor]'
+realtime_discussion:
+    type: irc
+    server: 'freenode.net'
+    channel: '#opnfv-conductor'
+meetings:
+    - type: 'gotomeeting+irc'
+      agenda:  # eg: 'https://wiki.opnfv.org/display/'
+      url:  # eg: 'https://global.gotomeeting.com/join/819733085'
+      server: 'freenode.net'
+      channel: '#opnfv-meeting'
+      repeats: 'weekly'
+      time:  # eg: '16:00 UTC'
+repositories:
+    - 'conductor'
+committers:
+    - <<: *opnfv_conductor_ptl
+    - name: 'Ruopeng Wang'
+      email: 'ruopeng.wang@huawei.com'
+      company: 'huawei.com'
+      id: 'ruopeng'
+    - name: 'Zhiqi Wang'
+      email: 'zhiqi.wang@huawei.com'
+      company: 'huawei.com'
+      id: 'Zhiqi'
+    - name: 'Qiao Fu'
+      email: 'fuqiao@chinamobile.com'
+      company: 'chinamobile.com'
+      id: 'fuqiao'
+    - name: 'yimin wang'
+      email: 'yimin.wang@huawei.com'
+      company: 'huawei.com'
+      id: 'wym_libra'
+    - name: 'qi liang'
+      email: 'liangqi1@huawei.com'
+      company: 'huawei.com'
+      id: 'QiLiang'
+    - name: 'panghao'
+      email: 'shamrock.pang@huawei.com'
+      company: 'huawei.com'
+      id: 'panghao1'
+tsc:
+    # yamllint disable rule:line-length
+    approval: 'http//meetbot.opnfv.org/meetings/opnfv-meeting/'
+    # yamllint enable rule:line-length
